@@ -1,0 +1,301 @@
+*{
+	box-sizing: border-box;
+ }
+
+ a, a:visited, a:hover, a:active {
+    color: #F0F3F5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #for {
+      display: grid;
+    }
+  }
+
+
+body {
+    background-color: #F0F3F5;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btn-edit{
+    background-color: #f2c80f;
+}
+#btn-dng {
+    padding-top: 2px;
+}
+
+.btn-primary {
+   
+    margin-right: 5px !important;
+}
+
+.btn-info{
+    margin-right: 5px;
+}
+
+.btn-space {
+    margin-right: 5px;
+}
+.botoes {
+    margin-left: auto;
+    margin-bottom: 2%;
+    
+}
+.cabe {
+    margin-top: 2%;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+}
+
+#datarec {
+    display: none;
+}
+
+.datarec {
+    display:none;
+}
+#dataresp {
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    
+}
+#del {
+    width: 92px !important;
+}
+#filtrar-tabela {
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+form label {
+    display: flex;
+   
+    letter-spacing: 2px;
+    margin-bottom:  1.5px;
+    margin-top: 0.5px;
+    margin-top: 0.5px;
+    margin-bottom: 1.5px;
+    padding-bottom: 1.5px;
+ 
+}
+
+.filtro {
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+form {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.grupo{
+    width: 33%;
+    display: inline-block;
+    padding: 20px 0px 0px 20px;
+    max-width: 445.16px;
+    
+}
+.gr-teor{
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+#gr-teor {
+    width: 80%;
+}
+h1 {
+    color:#F0F3F5;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 2.2rem;
+    text-align: center;   
+}
+hr {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    border: 1px solid #296796;
+
+}
+#hr {
+    margin-right: 3%;
+    margin-left: 3%;
+    text-align: left;
+    color: #333 !important;
+    font-size: 22px !important;
+    letter-spacing: 1.2px;
+    
+}
+#info-stab {
+    background-color: #fd625e;
+}
+
+#info-stcon {
+    background-color: #b4d7b2;
+}
+.info-voc {
+    overflow: scroll;
+}
+
+.info-resp {
+    overflow: scroll;
+}
+
+input {
+    border:1px solid #000;
+}
+input, select, textarea {
+    background-color:  #FDFDFD;
+}
+
+label[for=voc]{
+    display: block;
+}
+label[for=resposta]{
+    display: block;
+}
+label[for=gr-teor]{
+    display: inline-block;
+    
+}
+
+
+.manifesta-linha {
+    height: 36px;
+    white-space: nowrap;
+}
+
+
+#msgErro {
+    margin-top: 5px;
+    text-align: center;
+    color: red
+}
+
+#numid, .numid {
+    display: none;
+}
+#resposta {
+   height: 150px;
+   width: 100%;
+}
+
+.registro {
+    font-size: 2em;
+    color: #333;
+    display: block;
+    padding-top: .1em;
+	padding-bottom: .2em;
+    border-bottom: 1px solid #1fd6d0;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    text-align: center;
+    
+}
+
+#resp2 {
+    overflow:scroll;
+}
+
+
+section h2 {
+    font-size: 2em;
+    color: #333;
+    display: block;
+    padding-top: .2em;
+	padding-bottom: .2em;
+    border-bottom: 1px solid #1fd6d0;
+    margin-top: .5em;
+    margin-bottom: .1em;
+    text-align: center;
+}
+
+span{
+    text-align: left;
+    font-size: 22px;
+}
+table{
+	width: 94%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+    font-size: 13.5px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+    
+td, th {
+	padding-top: 0em;
+	margin: 0;
+	border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+td {
+    color: #333;
+}
+.titulo {
+    text-align: center;
+    
+}
+
+th{
+    font-weight: lighter;
+    color: #F0F3F5;
+	background-color: #296796;
+}
+
+.visual {  
+    
+    margin-bottom: 0%;
+    border: none;
+    color: #333 !important;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 22px !important;
+    padding-left: 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #F0F3F5;
+    margin-top: 2% !important;;
+    letter-spacing: 1.2px;
+    margin-right: 7%;
+    margin-left: 7%;
+    text-align: justify;
+}
+    
+
+
+#voc {
+    height: 150px;
+    width: 100%;
+    overflow-wrap: break-word;
+ }
+ #voc2 {
+    overflow-y:scroll;
+}
+
+
+ .wrap { 
+     display: flex;
+    align-items: center;}
+
+
+
+
+
